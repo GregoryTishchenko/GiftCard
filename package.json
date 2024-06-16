@@ -4,7 +4,7 @@
   "description": "The Gift of Good Taste",
   "scripts": {
     "start": "parcel src/index.html",
-    "build": "parcel build src/index.html",
+    "build": "parcel build src/index.html --public-url ./",
     "test": "cypress open"
   },
   "author": "Gregory TISHCHENKO",
